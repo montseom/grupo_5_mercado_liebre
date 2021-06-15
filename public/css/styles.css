@@ -17,6 +17,11 @@
     margin:auto;
 }
 
+.main-header-top-bar{
+    display:flex;
+    justify-content: space-between;
+
+}
 
 .main-header {
     background-color: var(--amarillo);
@@ -30,6 +35,12 @@
 .logo {
     max-width: 200px;
     animation:aumenta 1s ease-in 2 alternate;
+}
+
+.barras{
+    display:inline-block;
+    /* margin-right: -5px; */
+    /* text-align:left; */
 }
 
 @keyframes aumentar{
@@ -60,6 +71,10 @@
 
 .main-navbar {
     display: none;
+}
+
+#menu:checked ~ .main-navbar{
+    display:block;
 }
 
 .main-navbar ul {
@@ -164,7 +179,10 @@ border-radius:5px;
         margin: 0 5px;
     }
 
-    
+    .barras{
+        display:none;
+    }
+
 .cuadricula{
     display:grid;
     grid-template-columns: 1fr 1fr;

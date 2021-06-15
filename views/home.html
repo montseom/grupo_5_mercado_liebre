@@ -16,14 +16,28 @@
     <header class="main-header">
         <div class="main-header-top-bar">
             <img class="logo" src="/images/logo-mercado-liebre.svg" alt="Logo" />
-            <h2 class="copy-header">
+            <label for="menu" class="barras"><i class="fas fa-bars"></i></label>
+            
+        </div>
+        <!-- <img class="logo" src="/images/logo-mercado-liebre.svg" alt="Logo" /> -->
+
+        
+        <input type="checkbox" id="menu" hidden>
+
+        <h2 class="copy-header">
                 <i class="fas fa-hand-holding-usd"></i>
                 Compra en cuotas y sin tarjetas de crédito
             </h2>
-        </div>
-        <a href="#" class="hamburger-btn">
+
+
+           
+
+        
+        <!--<a href="#" class="hamburger-btn">
             <i class="fas fa-bars"></i>
-        </a>
+        </a> -->
+
+
         <nav class="main-navbar">
             <ul class="left-navbar">
                 <li><a href="#">Ofertas</a></li>
@@ -46,7 +60,7 @@
     </header>
 
     <!--Formulario -->
-    <form action="/crear-producto" method="POST" class="create-form">
+    <form action="/crear-producto" method="POST" class="create-form container">
         <div class="control-formulario">
             <label>Nombre del producto:</label>
             <input type="text" name="nombre" class="control">
@@ -148,7 +162,7 @@
             <img src="/images/img-tv-samsung-smart.jpg" alt="">
             <h2>TV Samsung Smart</h2>
         </article>
-        
+
     </div>
 
     <footer class="container">
