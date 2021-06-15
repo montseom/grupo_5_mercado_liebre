@@ -231,5 +231,26 @@ h3 {
 
 
 .pedido{
-    margin-top: 10%;
+    margin-top: 240px;
+}
+
+footer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+footer i {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: var(--celeste);
+}
+
+footer .copyright{
+    margin-right: auto;
+    text-align: left;
+    color: #555;
 }
