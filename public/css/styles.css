@@ -246,3 +246,37 @@ h3 {
 .descripciones {
     font-size: 16px;
 }
+
+
+.pedido{
+    margin-top: 240px;
+}
+
+footer{
+    padding: 1rem;
+}
+
+footer .info {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer .info article {
+    max-width: 320px;
+}
+
+footer .info i {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: var(--celeste);
+}
+
+footer .copyright{
+    width: 100%;
+    margin-right: auto;
+    text-align: left;
+    color: #555;
+}
