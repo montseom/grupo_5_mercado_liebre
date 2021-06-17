@@ -16,6 +16,10 @@ app.post('/crear-producto', (req, res) => {
   res.status(200).sendFile('/pedido.html', { root:'views' });
 });
 
+app.get('/crear-cuenta', (req, res) => {
+  res.status(200).sendFile('/register.html', { root:'views' });
+});
+
 
 app.listen(PORT, () => {
   console.log("Escuchando en http://localhost:" + PORT);
