@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const PORT = 3000;
+// const PORT = 3000;
 
 app.use(express.static(__dirname+'/public'));
 
@@ -21,6 +21,7 @@ app.get('/crear-cuenta', (req, res) => {
 });
 
 
-app.listen(PORT, () => {
-  console.log("Escuchando en http://localhost:" + PORT);
+app.listen({ port: process.env.PORT || 4000 }, () => {
+  console.log("Escuchando en http://localhost:" + 4000);
 });
+
